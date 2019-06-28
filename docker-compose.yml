@@ -13,7 +13,7 @@ services:
     depends_on:
       - db
     ports:
-      - "10001:8069"
+      - "8069:8069"
     volumes:
       - ./addons:/mnt/extra-addons
       - ./etc:/etc/odoo
